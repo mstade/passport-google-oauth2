@@ -46,7 +46,7 @@ Avoid usage of Private IP, otherwise you will get the device_id device_name issu
 A workaround consist to set up thru the google cloud console a fully qualified domain name such as http://mydomain:3000/ for the callback
 then edit your /etc/hosts on your computer and/or vm to point on your private IP.
 
-Also both sign-in button + callbackURL has to be share the same url, otherwise two cookies will be created and it will lead to lost your session
+Also both sign-in button + callbackURL need to have the same url, otherwise two cookies will be created and you will lose your current session.
 
 #### Authenticate Requests
 
